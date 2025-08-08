@@ -61,6 +61,6 @@ int main()
 	cout << "What is your goal weight?\n";
 	cin >> goal;
 	gbmr();
-	cout<< "  So your goal weight is" << goal << " pounds. Realisticly, how many weeks do you want to take to reach your goal? Remember... you can't lose more than 2 pounds a week.\n";
+	cout<< "  So your goal weight is " << goal << " pounds. Realisticly, how many weeks do you want to take to reach your goal? Remember... you can't lose more than 2 pounds a week.\n";
 	cin >> weeks;
 }
