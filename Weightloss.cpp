@@ -44,7 +44,7 @@ void gbmr() {
 
 int main()
 {
-  float lb = goal - weight;
+
   
   cout << "What is your name?\n";
         cin >> name;
@@ -62,5 +62,6 @@ int main()
         cout << "What is your goal weight?\n";
         cin >> goal;
         gbmr();
-        cout<< "  So your goal weight is " << goal << " pounds. That would mean you want to lose "  << lb << "   pounds. Correct?";
+          float lb = weight - goal;
+		  cout<< "  So your goal weight is " << goal << " pounds. That would mean you want to lose  "  << lb << "   pounds. Correct?";
 }
